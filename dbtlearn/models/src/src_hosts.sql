@@ -6,8 +6,10 @@ WITH raw_hosts AS (
 )
 SELECT
     id AS host_id,
-    NAME AS host_name,
+
     is_superhost,
+    NAME AS host_name,
+
     created_at,
     updated_at
 FROM

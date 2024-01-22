@@ -55,3 +55,11 @@ Once the theory and the practical stages are finished, we are going to dive into
     DBT SNOWFLAKE VERSION
 
     The dbt-snowflake version must be 1.7.1
+
+**RELATED DOCUMENTATIONS**
+
+- [Udemy - The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
+- [Python](https://docs.python.org/3.11/)
+- [Snowflake](https://docs.snowflake.com/sql-reference)
+- [DBT](https://docs.getdbt.com/docs/introduction)
+- [Jinja](https://docs.getdbt.com/docs/build/jinja-macros)
