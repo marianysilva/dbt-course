@@ -4,6 +4,7 @@ WITH raw_hosts AS (
     FROM
         AIRBNB.RAW.RAW_HOSTS
 )
+
 SELECT
     id AS host_id,
 

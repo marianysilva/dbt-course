@@ -4,6 +4,7 @@ WITH raw_reviews AS (
     FROM
         AIRBNB.RAW.RAW_REVIEWS
 )
+
 SELECT
     listing_id,
 
