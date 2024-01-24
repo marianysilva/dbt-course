@@ -56,10 +56,63 @@ Once the theory and the practical stages are finished, we are going to dive into
 
     The dbt-snowflake version must be 1.7.1
 
+    SNOWFLAKE
+
+    Start your 30-DAY free Trial using standard Snowflake edition with AWS cloud provider
+
+**SETUP (MacOS)**
+
+- Install [Python](https://www.python.org/) recommended version
+```
+brew install python@3.11 virtualenv
+```
+
+- Create Python Virtual Environment
+```
+virtualenv venv --python=python3.11
+```
+
+- Activate Virtual Environment
+```
+. venv/bin/activate
+```
+
+- Install dbt-snowflake recommended version
+```
+pip install dbt-snowflake==1.7.1
+```
+
+- Go to dbtlearn Project folder
+```
+cd dbtlearn
+```
+
+- Install Project Packages
+```
+dbt deps
+```
+
+- Run DBT cli commands
+```
+dbt -h
+```
+
+**PROJECT DOCUMENTATIONS**
+
+To access the project documentation, you will need to generate the documentation and start the server.
+
+```
+dbt docs generate
+dbt docs serve
+```
+
+You will be redirected to the documentation [Overview page](http://localhost:8080/)
+
 **RELATED DOCUMENTATIONS**
 
 - [Udemy - The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
 - [Python](https://docs.python.org/3.11/)
 - [Snowflake](https://docs.snowflake.com/sql-reference)
 - [DBT](https://docs.getdbt.com/docs/introduction)
+- [DBT Packages](https://hub.getdbt.com/)
 - [Jinja](https://docs.getdbt.com/docs/build/jinja-macros)
