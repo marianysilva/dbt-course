@@ -83,3 +83,33 @@ models:
         description: Last time the register was updated
         tests:
           - not_null
+
+  - name: fct_reviews
+    columns:
+      - name: listing_id
+        description: The listing's id. References the listing table.
+        tests:
+          - relationships:
+              to: ref('dim_listings_cleansed')
+              field: listing_id
+
+      - name: review_id
+        description: The review's id. References the review table.
+
+      - name: reviewer_name
+        description: The name of the reviewer
+        tests:
+          - not_null
+
+      - name: review_date
+        description: When the review was created
+        tests:
+          - not_null
+
+      - name: review_text
+        description: Review description
+
+      - name: review_sentiment
+        tests:
+          - accepted_values:
+              values: ['positive', 'neutral', 'negative']
