@@ -116,5 +116,7 @@ You will be redirected to the documentation Overview page (http://localhost:8080
 - [Python](https://docs.python.org/3.11/)
 - [Snowflake](https://docs.snowflake.com/sql-reference)
 - [DBT](https://docs.getdbt.com/docs/introduction)
-- [DBT Packages](https://hub.getdbt.com/)
 - [Jinja](https://docs.getdbt.com/docs/build/jinja-macros)
+- [DBT Packages](https://hub.getdbt.com/)
+- [DBT Expectations](https://github.com/calogica/dbt-expectations)
+- [RegEx Builder](https://regexr.com/)
