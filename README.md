@@ -5,6 +5,8 @@ Materials from the The Complete dbt (Data Build Tool) Bootcamp Udemy course
 
 - [COURSE WEBSITE](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/?referralCode=659B6722C93EF4096D11)
 
+- [COURSE REPOSITORY](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero)
+
 The structure of the course is designed to have a top-down approach. It starts with the theory - all you need to know is to put dbt (Data Build Tool) in context and to have an understanding of how it fits into the modern data stack. We start with the big picture, then we go deeper and deeper. Once you learned about the pieces, we are going to shift to the technicalities - a practical section -, which will focus on putting together the dbt “puzzle”. The practical section will cover each and every single dbt feature present today through the construction of a complete, real-world project; Airbnb. This presents an opportunity for us to show you which features should be used at what stage in a given project, and you will see how dbt is used in the industry.
 
 **THEORETICAL SECTION:**
@@ -81,7 +83,7 @@ virtualenv venv --python=python3.11
 
 - Install dbt-snowflake recommended version
 ```
-pip install dbt-snowflake==1.7.1
+pip install -r requirements.txt
 ```
 
 - Go to dbtlearn Project folder
@@ -116,7 +118,22 @@ You will be redirected to the documentation Overview page (http://localhost:8080
 - [Python](https://docs.python.org/3.11/)
 - [Snowflake](https://docs.snowflake.com/sql-reference)
 - [DBT](https://docs.getdbt.com/docs/introduction)
+- [Dagster](https://docs.dagster.io/getting-started)
 - [Jinja](https://docs.getdbt.com/docs/build/jinja-macros)
 - [DBT Packages](https://hub.getdbt.com/)
 - [DBT Expectations](https://github.com/calogica/dbt-expectations)
 - [RegEx Builder](https://regexr.com/)
+- [Cron Schedule](https://crontab.guru/#0_0_*_*_*)
+
+**dbt Orchestration**
+
+Start the Dagster server:
+
+```
+cd dbt_dagster_project
+DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1 dagster dev
+```
+
+Open the Dagster UI at http://localhost:3000/
+
+![orchestration](./assets/orchestration.png)
