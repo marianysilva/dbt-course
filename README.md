@@ -1,4 +1,4 @@
-# complete-dbt-bootcamp-zero-to-hero
+# dbt-course
 Materials from the The Complete dbt (Data Build Tool) Bootcamp Udemy course
 
 - [PROJECT DOCUMENTATION](https://marianysilva.github.io/complete-dbt-bootcamp-zero-to-hero/)
