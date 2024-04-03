@@ -1,5 +1,5 @@
 # dbt-course
-Materials from the The Complete dbt (Data Build Tool) Bootcamp Udemy course
+Project developed during the 'The Complete dbt (Data Build Tool) Bootcamp' course on Udemy.
 
 - [PROJECT DOCUMENTATION](https://marianysilva.github.io/complete-dbt-bootcamp-zero-to-hero/)
 
